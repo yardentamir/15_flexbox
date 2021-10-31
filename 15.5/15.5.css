@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  font-size: 1.2rem;
+}
+
+nav {
+  background-color: darkgray;
+  height: 6vh;
+  padding: 10px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ol {
+  display: flex;
+  list-style: none;
+}
+
+nav ol li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+nav ol li:hover {
+  cursor: pointer;
+  color: black;
+}

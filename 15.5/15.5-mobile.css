@@ -1,0 +1,14 @@
+nav {
+  flex-direction: column;
+}
+
+nav ol {
+  flex-direction: column;
+  background-color: darkgray;
+}
+
+nav ol li {
+  padding: 10px 0;
+  width: 100vw;
+  text-align: center;
+}
