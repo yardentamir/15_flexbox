@@ -13,13 +13,11 @@ nav {
   height: 6vh;
   padding: 10px;
   color: white;
-}
-
-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 nav ol {
   display: flex;
   list-style: none;
