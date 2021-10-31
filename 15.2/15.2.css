@@ -7,11 +7,14 @@
 body {
   background-color: rgb(255, 217, 134);
 }
+
 #container {
   margin: 0 auto;
   width: 50vw;
   height: 50vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #container div {
