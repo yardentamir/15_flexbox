@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 217, 134);
+}
+#container {
+  margin: 0 auto;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+#container div {
+  width: 50px;
+  height: 50px;
+}
+
+#div1 {
+  background-color: green;
+}
+#div2 {
+  background-color: blue;
+}
+#div3 {
+  background-color: red;
+}
